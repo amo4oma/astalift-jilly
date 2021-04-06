@@ -306,6 +306,30 @@ width: 75%;
 .elemnt{
   margin-bottom: 50px ;
 }
+footer{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #F5F5F5;
+}
+footer h4{
+  color: #c7103f;
+  font-family: Bodoni;
+  font-weight: 600;
+}
+.newsletter{
+  border-radius: 25px  0px  0px 25px !important;
+}
+.btn-white{
+  background-color: #c7103f !important;
+  color: #fff;
+  border-radius:   0px 25px 25px 0px  !important;
+}
+#footer-social .banner-social-button{
+ color: #464646 !important;
+}
+.Subscribe-and-follow{
+  padding-top: 0px !important;
+}
 /* ________________vii___________ */
 #video-popup-container {
   display:none;
