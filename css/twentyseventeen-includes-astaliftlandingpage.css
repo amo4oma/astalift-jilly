@@ -1907,11 +1907,125 @@ color: #c7103f !important;
   opacity: 1;
   transition: opacity 0.2s ease-out;
 }
+.sec-3-img-2,
+.sec-3-img-1,
+.sec-3-img-3{
+  width: 400px !important;
+}
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
   .section-review-item-content-image-backdrop, .section-review-item-content-image-wrapper{
    display: none;
+  }
+  .sec-3-img-1{
+  width: 400px;
+}
+.sec-3-img-2,
+.sec-3-img-3{
+  width: 250px;
+
+}
+.sec-3-col-1{
+  position: relative;
+  right: 66px;
+  bottom: 75px;
+}
+.sec-3-col-2{
+  position: relative;
+  left: 50;
+ 
+}
+#section-features p {
+  margin-top: -29px !important;
+  width: 139%;
+}
+.sec-4-container{
+  width: 100%;
+  margin-left: 51px !important;
+}
+#sec-5 svg{
+  top: -216px !important;
+}
+.sec-4-main-img {
+  width: 400px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+.sec-4-header{
+  font-size: 40px !important;
+  line-height: 2;
+}
+.sec-4-sup {
+  font-size: 32px;
+  text-align: center !important;
+}
+.sec-4-container{
+  display: flex !important;
+  flex-direction: column !important;
+}
+.sec-4-header{
+  text-align: center !important;
+}
+.sec-4-header-2{
+  text-align: center !important;
+}
+.sec-4-header-container{
+  margin-left: 100px;
+}
+  #sec-2-container{
+    background-color: #ffebeb;
+    width: 100%;
+    height: 71%;
+  }
+  .sec-4-flex{
+    flex-direction: column !important;
+  }
+  .f-col{
+    text-align: center;
+    flex-direction: column !important;
+  }
+  .f-col img{
+    width: 250px;
+  }
+  .furomla-mobile{
+    flex-direction: row !important;
+
+  }
+  .sec-7-header{
+    font-size: 45px !important;
+    font-weight: 700;
+  }
+  .sec-7-sup{
+    font-size: 28px !important;
+    width: 80%;
+    padding-bottom: 83px;
+  }
+  .sec-6 .button-primary{
+    padding: 30px;
+    border-radius: 50px;
+  }
+  .jilly-gif-mobile img{
+    width: 100%;
+  }
+  .furomla-mobile img{
+    width: 220px;
+  }
+  .section-3-header{
+    font-size: 72px !important;
+  }
+  #section-features p {
+    margin-top: 30px;
+    width: 110%;}
+  .section-2-hero{
+    width: 100%;
+    text-align: center;
+    font-size: 61px !important;
+  }
+  .section-2-sup{
+    text-align: center;
+    font-size:35px !important;
+    font-family: 400;
   }
   .cercel-1 {
     position: absolute;
