@@ -1976,7 +1976,7 @@ and (max-device-width : 480px) {
   #sec-2-container{
     background-color: #ffebeb;
     width: 100%;
-    height: 71%;
+    height: 100%;
   }
   .sec-4-flex{
     flex-direction: column !important;
@@ -2007,6 +2007,10 @@ and (max-device-width : 480px) {
   }
   .jilly-gif-mobile img{
     width: 100%;
+  }
+  #sec-2-container{
+    background-image: none !important;
+
   }
   .furomla-mobile img{
     width: 220px;
