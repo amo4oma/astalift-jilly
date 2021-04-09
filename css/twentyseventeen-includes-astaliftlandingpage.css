@@ -1950,7 +1950,9 @@ and (max-device-width : 480px) {
   position: relative;
     top: 4px;
 }
-
+.j-buttol{
+  width: 56%;
+}
 #wave-red{
   position: relative;
     top: 200px;
