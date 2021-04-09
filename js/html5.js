@@ -57,7 +57,13 @@
 
   /*--------------------------------------------------------------------------*/
  
-
+  if (jQuery(window).width() < 500){
+    jQuery('#wave-mobile-1').show();
+    
+    
+}else if(jQuery(window).width() < 500){
+    jQuery('#wave-mobile-1').remove();
+}
  
   /**
    * Creates a style sheet with the given CSS text and adds it to the document.

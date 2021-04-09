@@ -459,8 +459,7 @@
                 </div>
             </div>
         </div>
-        <svg id="mobile-wave-1" style="margin-top: -71;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#c7103f" fill-opacity="1" d="M0,192L80,176C160,160,320,128,480,138.7C640,149,800,203,960,224C1120,245,1280,235,1360,229.3L1440,224L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
-    </section>
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 286.09"><defs><style>.wave-mobile-1{fill:#c7103f;}</style></defs><title>1</title><path class="wave-mobile-1" d="M0,0V191.24S97.17,167.18,207.81,222s221.46,72.83,324.36,60.23C648.58,268,736.61,175.89,750,170.47V0Z"/></svg>     </section>
     <section id="section-2" class="">
         <div id="sec-2-container" class="container-fluid">
             <div class="row">
@@ -489,12 +488,12 @@
 
             </div>
         </div>
+        <svg id="Layer_2" data-name="Layer 1"
+ xmlns="http://www.w3.org/2000/svg" 
+ viewBox="0 0 750 246.85"><defs><style>.wave-mobile-2{fill:#ffebeb;}</style></defs><title>bkgd 2</title><path class="wave-mobile-2" d="M0,0V218.65s82.43,69.58,209.46-9.84c122-76.24,264.45-66.91,347.84-18.78,155.63,89.83,179.28,18.22,192.7,23.64V0Z"/></svg>
     </section>
     <section id="section-features" class="section-prod-details page-section">
-        <svg xmlns="http://www.w3.org/2000/svg" style="position: absolote;position: relative;top: -210px;" viewBox="0 0 1440 320"><path fill="#c7103f" fill-opacity="1" d="M0,0L48,37.3C96,75,192,149,288,160C384,171,480,117,576,106.7C672,96,768,128,864,160C960,192,1056,224,1152,202.7C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" style="
-            position: absolute;
-            top: 0;
-        "></path></svg>
+       
         <div class="container d-flex flex-column justify-content-center align-items-center">
             <h1 class="text-center section-3-header">The Science Behind Age-defying Beauty</h1>
             <p class="text-center sec-3-sup">Ceramides are naturally-occurring molecules in your skin that help seal in moisture
@@ -646,7 +645,8 @@
 
             </div>
         </div>
-        <svg style="position: absolute;  z-index: 1;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        
+        <svg id="wave-3" style="position: absolute;  z-index: 1;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             viewBox="0 0 2560 474.83">
             <defs>
                 <style>
@@ -674,6 +674,7 @@
         </svg>
     </section>
     <section>
+        <svg id="Layer_3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 215.05"><defs><style>.mobile-wave-3{fill:#ffdbdb;}</style></defs><title>bkgd 6</title><path class="mobile-wave-3" d="M0,0V187.23s82.43,68.64,209.46-9.7c122-75.22,264.45-66,347.84-18.53,155.63,88.62,179.28,18,192.7,23.32V0Z"/></svg>
         <div class="container sec-6">
             <div class="d-flex d-inline flex-wrap-reverse">
                 <div class="col-lg-6 d-flex flex-column">
@@ -1371,7 +1372,14 @@
                 });
             }
         });
- 
+        
+        if (jQuery(window).width() < 500){
+            jQuery('#wave-mobile-1').show();
+            
+            
+        }else if(jQuery(window).width() < 500){
+            jQuery('#wave-mobile-1').remove();
+        }
     </script>
 </main>
 <!--This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) -->
