@@ -523,6 +523,14 @@ color: #3c3c3b;
   .banner-img{
     height: 110% !important;
   }
+  .j-buttol{top: 150px;
+    left: 288px;}
+    .cercel-1{
+      right: 19px;
+    }
+    .cercel-2{
+      right: 72px
+    }
 }
 /* ____________________new ends__________ */
 .header-astalift {
