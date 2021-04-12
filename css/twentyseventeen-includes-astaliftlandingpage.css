@@ -1996,10 +1996,15 @@ and (max-device-width : 480px) {
   }
   #desktop-footer{
     display: none !important;
+    
   }
   .mobile-footer{
     display: block;
+    padding-left: 50px;
+    padding-right: 80px;
   }
+ 
+
   .sec-6 {
     padding-top: 37px;
 }
@@ -2007,7 +2012,7 @@ and (max-device-width : 480px) {
 margin-top: -61 ; 
 }
 .li-footer-header{
-  font-size: 40px !important; 
+  font-size: 55px !important; 
  float: right;
 }
 .li-footer a{
