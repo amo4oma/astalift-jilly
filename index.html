@@ -825,7 +825,7 @@
                             absorption.</p>
                     </div>
                     <div id="steps-tab-content-5" class="steps-content-container ">
-                        <img class="steps-content-img step-5" src="images/Step5.gif" alt="" />
+                        <img class="steps-content-img step-5" src="images/step5.gif" alt="" />
                         <p  class="steps-content-text">Continue with your usual skincare routine.</p>
                     </div>
                 </div>
@@ -856,7 +856,7 @@
                 </div>
             </div>
         </div>
-        <svg id="ART" style="position: absolute;" xmlns="http://www.w3.org/2000/svg"
+        <svg id="ART" style="position: absolute; z-index: 10;" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2560 474.83">
             <defs>
                 <style>
@@ -1329,29 +1329,29 @@
                 <div class="col-lg-3">
                     <div class="d-flex flex-column">
                         <h4>FEATURED</h4>
-                        <span>Best Seller</span>
-                        <span>Shop</span>
-                        <span>Makeup</span>
-                        <span>Facial</span>
-                        <span>Online Promotion</span>
+                        <a>Best Seller</a>
+                        <a>Shop</a>
+                        <a>Makeup</a>
+                        <a>Facial</a>
+                        <a>Online Promotion</a>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="d-flex flex-column">
                         <h4>ABOUT US</h4>
-                        <span>Our Story</span>
-                        <span>Contact Us</span>
-                        <span>Store Locator</span>
+                        <a>Our Story</a>
+                        <a>Contact Us</a>
+                        <a>Store Locator</a>
    
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="d-flex flex-column">
                         <h4>INFORMATION</h4>
-                        <span>FAQ</span>
-                        <span>Shipping & Returns</span>
-                        <span>Cookies Policy</span>
-                        <span>Privacy Policy</span>
+                        <a>FAQ</a>
+                        <a>Shipping & Returns</a>
+                        <a>Cookies Policy</a>
+                        <a>Privacy Policy</a>
                      
                     </div>
                 </div>
@@ -1373,7 +1373,7 @@
                                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_09ab15b75b4fb84e2a18e4aa5_0839564117" tabindex="-1" value=""></div>
                                 </div>
                             </form>
-                            </div>
+                         </div>
                     
                           <h4 class="Subscribe-and-follow">Subscribe & Follow</h4>
                           <div id="footer-social" class="d-flex d-inline">
@@ -1392,6 +1392,119 @@
             </div>
             <p class="text-center mt-3">© FUJIFILM Corporation</p>
         </div>
+        <div class="mobile-footer">
+            <div class="faq-container" onclick="onClickFAQItem(event)">
+                <div class="faq-question-container">
+                    <h4 class="li-footer-header">FEATURED</h4>
+                    <i class="fas fa-angle-down ml-auto"></i>
+                </div>
+                <div class="faq-answer-container">
+                    <a class="faq-answer">
+                        <div class=" d-flex flex-column li-footer">
+                         <a href="#">Best Seller</a>
+                        <a>Shop</a>
+                        <a>Makeup</a>
+                        <a>Facial</a>
+                        <a>Online Promotion</a>
+                        </div>
+                       
+                    </a>
+                </div>
+            </div>
+            <div class="faq-container" onclick="onClickFAQItem(event)">
+                <div class="faq-question-container">
+                    <h4 class="li-footer-header">ABOUT US</h4>
+                    <i class="fas fa-angle-down ml-auto"></i>
+                </div>
+                <div class="faq-answer-container">
+                    <a class="faq-answer">
+                        <div class=" d-flex flex-column li-footer">
+                       
+                        <a>Our Story</a>
+                        <a>Contact Us</a>
+                        <a>Store Locator</a>
+                        </div>
+                       
+                    </a>
+                </div>
+            </div>
+            <div class="faq-container" onclick="onClickFAQItem(event)">
+                <div class="faq-question-container">
+                    <h4 class="li-footer-header">INFORMATION</h4>
+                    <i class="fas fa-angle-down ml-auto"></i>
+                </div>
+                <div class="faq-answer-container">
+                    <a class="faq-answer">
+                        <div class=" d-flex flex-column li-footer">
+                
+                        <a>FAQ</a>
+                        <a>Shipping & Returns</a>
+                        <a>Cookies Policy</a>
+                        <a>Privacy Policy</a>
+                        </div>
+                       
+                    </a>
+                </div>
+            </div>
+            <div class="faq-container" onclick="onClickFAQItem(event)">
+                <div class="faq-question-container">
+                    <h4 class="li-footer-header">LOYALTY</h4>
+                    <i class="fas fa-angle-down ml-auto"></i>
+                </div>
+                <div class="faq-answer-container">
+                    <a class="faq-answer">
+                        <div class=" d-flex flex-column li-footer">
+                            <a>My Account </a>
+                        </div>
+                       
+                    </a>
+                </div>
+            </div>
+            <div class="faq-container" onclick="onClickFAQItem(event)">
+                <div class="faq-question-container">
+                    <h4 class="li-footer-header">Subscribe</h4>
+                    <i class="fas fa-angle-down ml-auto"></i>
+                </div>
+                <div class="faq-answer-container">
+                    <a class="faq-answer">
+                        <div class=" d-flex flex-column li-footer">
+                            <div id="mc_embed_signup">
+                                <form action="https://astalift.us20.list-manage.com/subscribe/post?u=09ab15b75b4fb84e2a18e4aa5&amp;id=0839564117" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                    <div id="mc_embed_signup_scroll">
+                                <div class="mc-field-group input-group mb-3">
+                                    <input type="email" placeholder="Your Email" value="" name="EMAIL" class="required email form-control bg-transparent  newsletter" id="mce-EMAIL"><input type="submit" value="Go" name="subscribe" placeholder="Your Email" id="mc-embedded-subscribe" class="button subBtn btn btn-white bg-white border-0">
+                                </div>
+                                    <div id="mce-responses" class="clear">
+                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_09ab15b75b4fb84e2a18e4aa5_0839564117" tabindex="-1" value=""></div>
+                                    </div>
+                                </form>
+                             </div>
+                        </div>
+                       
+                    </a>
+                </div>
+            </div>
+            <div class="faq-container" onclick="onClickFAQItem(event)">
+                <div class="faq-question-container">
+                    <h4 class="li-footer-header">Subscribe & Follow</h4>
+                    <i class="fas fa-angle-down ml-auto"></i>
+                </div>
+               
+            </div>
+            <div id="footer-social" class="d-flex d-inline justify-content-center">
+                <a style="background-color: #464646;" class="sbha-button banner-social-button" href="https://www.facebook.com/AstaliftSingapore" target="_blank">
+                    <i style="color: #fff; font-size:40 ;" class="fab fa-facebook-f"></i></a>
+                <a style="background-color: #464646;" class="sbha-button banner-social-button" href="https://www.instagram.com/astaliftsg" target="_blank">
+                    <i style="color: #fff; font-size:40 ;" class="fab fa-instagram"></i>
+                    <a style="background-color: #464646;  ;" class="sbha-button banner-social-button"
+                        href="https://www.youtube.com/channel/UC6WwJOo0m530yFIK3Zevq0A" target="_blank">
+                        <i style="color: #fff; font-size:40 ;" class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

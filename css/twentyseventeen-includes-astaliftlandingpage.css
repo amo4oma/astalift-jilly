@@ -89,7 +89,9 @@ a:hover{
   object-fit: cover;
 }
 /* -------new css-------------------- */
-
+.mobile-footer{
+  display: none;
+}
 #sec-2-container {
   margin-top: 110px;
     background: url('../images/bkgd.svg') no-repeat;
@@ -293,7 +295,7 @@ a:hover{
   margin-top: 30;
 }
 #sec-7{
-  margin-top: -57px;
+  margin-top: -36px;
   background-color: #FFDBDB;
 }
 #sec-7 .row{
@@ -1970,6 +1972,10 @@ color: #c7103f !important;
   position: absolute;
 
 }
+.fa-angle-down{
+  color: #c7103f;
+  font-size: 40;
+}
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
@@ -1988,8 +1994,25 @@ and (max-device-width : 480px) {
   #Layer_3{
     display: block;
   }
+  #desktop-footer{
+    display: none;
+  }
+  .mobile-footer{
+    display: block;
+  }
   .sec-6 {
     padding-top: 37px;
+}
+#sec-7 {
+margin-top: -61 ; 
+}
+.li-footer-header{
+  font-size: 40px !important; 
+ float: right;
+}
+.li-footer a{
+  font-size: 40px;
+    text-align: center;
 }
 .heart-formula{
   color: #c7103f;
@@ -3085,7 +3108,7 @@ and (max-device-width : 480px) {
   }
 
   .section-review-carousel-bullets-container {
-    margin-top: 52px;
+    margin-top: 0px;
     margin-left: -9px;
     margin-right: -9px;
   }
