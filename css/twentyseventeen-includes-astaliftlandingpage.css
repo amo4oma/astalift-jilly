@@ -82,7 +82,7 @@ a:hover{
   object-fit: cover;
 }
 /* -------new css-------------------- */
- 
+
 #sec-2-container {
   margin-top: 110px;
     background: url('../images/bkgd.svg') no-repeat;
@@ -200,7 +200,7 @@ a:hover{
 
 }
 #section-features p{
-  width: 72%;
+  width: 76%;
   color: rgb(255, 228, 228);
   margin-top: 0px;
   font-family: sans-serif;
@@ -508,6 +508,21 @@ footer h4{
   bottom: -135px;
   left: 300;
   z-index: 10;
+}
+.button-primary:hover{
+color: #3c3c3b;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1100px)  {
+  .section-2-hero{
+    font-size: 34px  ;
+  }
+  .section-2-sup{
+    font-size: 18px ;
+  }
+  .banner-img{
+    height: 110% !important;
+  }
 }
 /* ____________________new ends__________ */
 .header-astalift {
@@ -2566,7 +2581,7 @@ and (max-device-width : 480px) {
   .banner-img {
     display: block;
     margin-top: 20px;
-    height: 105%;
+  
   }
 
   .banner-img-medium {
