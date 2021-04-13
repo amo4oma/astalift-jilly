@@ -92,6 +92,9 @@ a:hover{
 .mobile-footer{
   display: none;
 }
+.human-t-headre{
+  margin-top: -3;
+}
 #sec-2-container {
   margin-top: 110px;
     background: url('../images/bkgd.svg') no-repeat;
@@ -171,7 +174,7 @@ a:hover{
   font-size: 22px;
   font-weight: 400;
   line-height: 1.2;
-  font-family: sans-serif;
+  font-family: 'Mulish', sans-serif;
 }
 .section-2-hero{
   color: #c7103f;
@@ -212,15 +215,13 @@ a:hover{
   width: 76%;
   color: rgb(255, 228, 228);
   margin-top: 0px;
-  font-family: sans-serif;
+
   
 }
 #section-features h3{
   text-align: center;
   color:  rgb(255, 228, 228);
-  font-family: FSElliotPro !important;
   font-weight: 400;
-
 }
 .skin-dry-animateion{
  margin-top: 100px;
@@ -354,7 +355,7 @@ width: 75%;
   font-weight: 400;
 }
 .sec-4-details-p{
-  margin: 30px;
+  margin-left: 50px;
 }
 .elemnt{
   margin-bottom: 50px ;
@@ -523,6 +524,15 @@ footer h4{
 .button-primary:hover{
 color: #3c3c3b;
 }
+.hydrate-hero{
+  margin-left: 130px;
+}
+.hydrate-col-2{
+  margin-left: 84px;
+}
+#step{
+  font-weight: 100;
+}
 
 @media only screen and (max-width: 1300px) and (min-width: 1100px)  {
   #sec-2-container{
@@ -558,7 +568,9 @@ color: #3c3c3b;
   box-shadow: 0 4px 16px 1px rgba(0, 0, 0, 0.3);
   z-index: 100;
 }
-
+.sec-3-sup{
+  font-family: 'Mulish', sans-serif;
+}
 .header-astalift-content {
   width: 100%;
   height: 100%;
@@ -1522,7 +1534,7 @@ color: #c7103f !important;
   margin-top: 24px;
   margin-bottom: 16px;
   color: #3c3c3b;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.2;
   text-align: center;
 }
@@ -1622,10 +1634,9 @@ color: #c7103f !important;
 
 .section-review-item-content-author {
   font-family: 'Mulish', sans-serif;
-  font-weight: 800;
+  font-weight: 500;
   color: #ffffff;
   font-size: 18px;
-  font-weight: 900;
   line-height: 1.2;
 }
 
@@ -1732,6 +1743,7 @@ color: #c7103f !important;
   background-color: #fff;
 }
 .fa-play{
+  margin-left: 7px;
   text-align: center;
   font-size: 40px;
   color: #c7103f;
@@ -1976,6 +1988,8 @@ color: #c7103f !important;
   color: #c7103f;
   font-size: 40;
 }
+
+
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
@@ -2007,96 +2021,96 @@ and (max-device-width : 480px) {
 
   .sec-6 {
     padding-top: 37px;
-}
-#sec-7 {
-margin-top: -61 ; 
-}
-.li-footer-header{
-  font-size: 55px !important; 
- float: right;
-}
-.li-footer a{
-  font-size: 40px;
-    text-align: center;
-}
-.heart-formula{
-  color: #c7103f;
-  font-family:"Bodoni";
-  font-size: 35px;
-  font-weight: 600;
-}
-.sec-7-right-col{
-  background-size: 89%;
-}
+    }
+    #sec-7 {
+    margin-top: -61 ; 
+    }
+    .li-footer-header{
+    font-size: 55px !important; 
+    float: right;
+    }
+    .li-footer a{
+      font-size: 40px;
+        text-align: center;
+    }
+    .heart-formula{
+      color: #c7103f;
+      font-family:"Bodoni";
+      font-size: 35px;
+      font-weight: 600;
+    }
+    .sec-7-right-col{
+      background-size: 89%;
+    }
 
-.furomla-header{
-  font-weight: 700;
-  font-size: 31px !important;
-  text-align: center;
-}
-.furomla-sup{
-  font-size : 31px !important;
-  line-height: 1;
-  color: #3c3c3b;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.section-steps-title{
-  font-family: "Bodoni";
-  font-size: 75px !important;
-  font-weight: 600;
-  color: #ffebeb;
-}
-.section-related-products-title{
-  font-size: 70px !important;
-}
-.step-2,
-.step-3,
-.step-5{
-  height: 250px;
-}
-.sec-6-sup{
-  font-weight: 600;
-}
-.sec-4-details-p{
-  width: 112%;
-}
-#section-4{
-  padding-bottom: 30px;
-}
-.sec-6-header{
-  font-size: 63px !important;
-}
-#Layer_1{    position: relative;
-  bottom: 9px;
-}
-#ART-1{
-  position: relative;
-    top: 4px;
-}
-.j-buttol{
-  width: 56%;
-}
-#wave-red{
-  position: relative;
-    top: 200px;
-}
+    .furomla-header{
+      font-weight: 700;
+      font-size: 31px !important;
+      text-align: center;
+    }
+    .furomla-sup{
+      font-size : 31px !important;
+      line-height: 1;
+      color: #3c3c3b;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .section-steps-title{
+      font-family: "Bodoni";
+      font-size: 75px !important;
+      font-weight: 600;
+      color: #ffebeb;
+    }
+    .section-related-products-title{
+      font-size: 70px !important;
+    }
+    .step-2,
+    .step-3,
+    .step-5{
+      height: 250px;
+    }
+    .sec-6-sup{
+      font-weight: 600;
+    }
+    .sec-4-details-p{
+      width: 112%;
+    }
+    #section-4{
+      padding-bottom: 30px;
+    }
+    .sec-6-header{
+      font-size: 63px !important;
+    }
+    #Layer_1{    position: relative;
+      bottom: 9px;
+    }
+    #ART-1{
+      position: relative;
+        top: 4px;
+    }
+    .j-buttol{
+      width: 56%;
+    }
+    #wave-red{
+      position: relative;
+        top: 200px;
+    }
   #wave-3{
     display: none;
   }
-  .sec-3-img-1{
-  width: 400px;
-  }
-  #wave-1{
-    display: none;
-  }
-  .sec-3-img-2,
-  .sec-3-img-3{
-    width: 250px;
+    .sec-3-img-1{
+    width: 400px;
+    }
+    #wave-1{
+      display: none;
+    }
+    .sec-3-img-2,
+    .sec-3-img-3{
+      width: 250px;
 
-  }
-  #section-features h1{
-    margin-top: 15px;
+    }
+    #section-features h1{
+      margin-top: 15px;
   }
   .sec-3-col-1{
     position: relative;
@@ -2446,7 +2460,7 @@ margin-top: -61 ;
   }
  .steps{
   padding: 20px;
-  font-weight: 100;
+  font-weight: 100 !important;
   margin-top: 20px;
   margin-bottom: 20px;
  }
@@ -3016,7 +3030,7 @@ margin-top: -61 ;
   .prod-related-products-item-title {
     margin-top: 32px;
     margin-bottom: 24px;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .sbha-carousel__next-icon {
@@ -3232,7 +3246,7 @@ margin-top: -61 ;
   }
 
   .faq-answer {
-    width: 70%;
+    width: 96%;
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: 24px;
