@@ -272,6 +272,10 @@ a:hover{
 .furomla-header{
   color: #c7103f;
   font-weight: 600;
+  font-family: 'Mulish';
+}
+.the-power-of-section{
+  margin-top: -40px
 }
 .sec-6{
   padding-top: 350px;
