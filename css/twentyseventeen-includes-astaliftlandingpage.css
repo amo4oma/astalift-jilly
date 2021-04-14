@@ -3131,7 +3131,7 @@ and (max-device-width : 480px) {
   }
 
   .section-review-carousel-bullets-container {
-    margin-top: 0px;
+    margin-top: 50px;
     margin-left: -9px;
     margin-right: -9px;
   }
