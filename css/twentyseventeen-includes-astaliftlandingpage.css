@@ -2077,7 +2077,10 @@ and (max-device-width : 480px) {
       font-weight: 600;
     }
     .sec-4-details-p{
-      width: 112%;
+      width: 115%;
+      margin-left: 0px;
+      font-size: 26px !important;
+      margin-top: 20px;
     }
     #section-4{
       padding-bottom: 30px;
@@ -2160,7 +2163,11 @@ and (max-device-width : 480px) {
     font-size: 40px !important;
     line-height: 2;
   }
+#sec-4-row{
+  margin-bottom: 150px;
+}
   .sec-4-sup {
+    width: 102%;
     font-size: 32px;
     text-align: center !important;
   }
@@ -2175,7 +2182,7 @@ and (max-device-width : 480px) {
     text-align: center !important;
   }
   .sec-4-header-container{
-    margin-left: 100px;
+    margin-left: 150px;
   }
   #sec-2-container{
     background-color: #ffebeb;
