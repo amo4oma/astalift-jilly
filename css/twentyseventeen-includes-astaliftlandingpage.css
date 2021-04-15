@@ -2261,6 +2261,12 @@ and (max-device-width : 480px) {
     font-size:29px !important;
     font-family: 400;
   }
+  #mce-EMAIL{
+    font-size: 35px;
+  }
+  #mc-embedded-subscribe{
+    font-size: 25px;
+  }
   .mobile-cercel-1{
     width: 70px;
     position: absolute;
