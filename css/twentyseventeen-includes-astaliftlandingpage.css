@@ -1992,13 +1992,22 @@ color: #c7103f !important;
   color: #c7103f;
   font-size: 40;
 }
-
+.mobile-cercel-1,
+.mobile-cercel-2,
+.mobile-cercel-3{
+  display: none;
+}
 
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
-  .section-review-item-content-image-backdrop, .section-review-item-content-image-wrapper{
+  .section-review-item-content-image-backdrop, .section-review-item-content-image-wrapper, .cercel-2{
    display: none;
+  }
+  .mobile-cercel-1,
+  .mobile-cercel-2,
+  .mobile-cercel-3{
+    display: block;
   }
   .sec-5-desktop-v{
     display: none;
@@ -2240,6 +2249,7 @@ and (max-device-width : 480px) {
   }
   #section-features p {
     margin-top: 30px;
+    font-size: 30px !important;
     width: 110%;}
   .section-2-hero{
     width: 100%;
@@ -2248,13 +2258,40 @@ and (max-device-width : 480px) {
   }
   .section-2-sup{
     text-align: center;
-    font-size:35px !important;
+    font-size:29px !important;
     font-family: 400;
+  }
+  .mobile-cercel-1{
+    width: 70px;
+    position: absolute;
+    bottom: -191px;
+    left: 87px;
+    height: 70px;
+    background-color: #c7103f;
+    border-radius: 50px;
+  }
+  .mobile-cercel-2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 156px;
+    bottom: -141px;
+    background-color: #c7103f;
+    border-radius: 50px;
+  }
+  .mobile-cercel-3{
+    width: 70px;
+    height: 70px;
+    background-color: #c7103f;
+    border-radius: 50px;
+    position: absolute;
+    left: 819px;
+    bottom: -100;
   }
   .cercel-1 {
     position: absolute;
     top: 190px;
-    right: 190px;
+    right: 127px;
     width: 50px;
     height: 50px;
     background-color: rgb(199 16 63);
