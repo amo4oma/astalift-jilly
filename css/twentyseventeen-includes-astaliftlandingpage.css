@@ -479,7 +479,7 @@ footer h4{
   opacity: 0.5;
   border-radius: 25px;
   position: absolute;
-  bottom: 219px;
+  bottom: 249px;
   left: 285px;
 }
 .sec-5-cercel-4{
@@ -489,7 +489,7 @@ footer h4{
   opacity: 0.5;
   border-radius: 25px;
   position: absolute;
-  bottom: 256px;
+  bottom: 277px;
   left: 238px;
 }
 .sec-5-cercel-5{
@@ -2052,6 +2052,13 @@ and (max-device-width : 480px) {
       font-size: 35px;
       font-weight: 600;
     }
+    .mobile-cercel-1-heart-furmula-1{
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      background-color: #E4859B;
+      position: absolute;
+    }
     .sec-7-right-col{
       background-size: 89%;
     }
@@ -2260,6 +2267,9 @@ and (max-device-width : 480px) {
     text-align: center;
     font-size:29px !important;
     font-family: 400;
+  }
+  #heart-formula-header{
+    padding-left: 50px;
   }
   #mce-EMAIL{
     font-size: 35px;
