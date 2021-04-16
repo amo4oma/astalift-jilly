@@ -2061,8 +2061,8 @@ and (max-device-width : 480px) {
       border-radius: 50px;
       background-color: #E4859B;
       position: absolute;
-      top: 507em;
-      left: 5em;
+      top: 512em;
+      left: 4em;
     }
     .mobile-cercel-1-heart-furmula-2{
       width: 35px;
@@ -2070,17 +2070,17 @@ and (max-device-width : 480px) {
       border-radius: 50px;
       background-color: #E4859B;
       position: absolute;
-      top: 510em;
-      left: 8em;
+      top: 516em;
+      left: 6em;
     }
     .mobile-cercel-1-heart-furmula-3{
       width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    background-color: #E4859B;
-    position: absolute;
-    top: 510em;
-    left: 52em;
+      height: 50px;
+      border-radius: 50px;
+      background-color: #E4859B;
+      position: absolute;
+      top: 517em;
+      left: 54em;
     }
     .mobile-cercel-1-heart-furmula-4{
       width: 30px;
@@ -2088,7 +2088,7 @@ and (max-device-width : 480px) {
       border-radius: 50px;
       background-color: #E4859B;
       position: absolute;
-      top: 515em;
+      top: 520em;
       left: 56em;
     }
     .mobile-cercel-1-heart-furmula-bottom-1{
