@@ -755,7 +755,9 @@ color: #3c3c3b;
   padding-bottom: 65px;
  
 }
- 
+.banner-img-small{
+  display: none !important;
+}
 
 
 .header-button-text {
@@ -790,7 +792,7 @@ text-decoration: none;
 
 .banner-img-container {
   width: 100%;
-  height: 100%;
+  height: 50%;
   background: rgba(0, 0, 0, 0.2);
   margin-top: 100px;
 }
@@ -2728,7 +2730,7 @@ and (max-device-width : 480px) {
     font-size: 60px;
   }
   .sec-4-main-img{
-    width: 50%;
+    width: 35%;
     height: auto;
   }
   .button-primary {
