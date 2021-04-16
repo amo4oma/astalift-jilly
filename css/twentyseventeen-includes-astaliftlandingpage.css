@@ -2030,10 +2030,18 @@ and (max-device-width : 480px) {
   }
   .mobile-footer{
     display: block;
-    padding-left: 50px;
-    padding-right: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
- 
+ .mobile-footer-a{
+   background-color: #c7103f;
+   color: #fff;
+   font-size: 40px;
+   font-weight: 200;
+   font-family: 'Mulish', sans-serif;
+   padding:50px;
+   border-bottom: #fff solid 1px;
+ }
 
   .sec-6 {
     padding-top: 37px;
@@ -2047,7 +2055,9 @@ and (max-device-width : 480px) {
     }
     .li-footer a{
       font-size: 40px;
-        text-align: center;
+      
+      background-color: #cf063b;
+      color: #fff;
     }
     .heart-formula{
       color: #c7103f;
@@ -2083,13 +2093,13 @@ and (max-device-width : 480px) {
       left: 54em;
     }
     .mobile-cercel-1-heart-furmula-4{
-      width: 30px;
-      height: 30px;
-      border-radius: 50px;
-      background-color: #E4859B;
-      position: absolute;
-      top: 520em;
-      left: 56em;
+         width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #E4859B;
+    position: absolute;
+    top: 520em;
+    left: 56em;
     }
     .mobile-cercel-1-heart-furmula-bottom-1{
       width: 25px;
@@ -3363,7 +3373,10 @@ and (max-device-width : 480px) {
     padding-left: 32px;
     padding-bottom: 40px;
   }
-
+  #footer-mobile{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
   .faq-decoration-icon {
     width: unset;
     top: -14px;
