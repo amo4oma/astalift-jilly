@@ -2088,6 +2088,33 @@ and (max-device-width : 480px) {
       top: 533em;
       left: 56em;
     }
+    .mobile-cercel-1-heart-furmula-bottom-1{
+      width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: #E4859B;
+    position: absolute;
+    top: 654em;
+    left: 56em;
+    }
+    .mobile-cercel-1-heart-furmula-bottom-2{
+      width: 45px;
+      height: 45px;
+      border-radius: 50px;
+      background-color: #E4859B;
+      position: absolute;
+      top: 657em;
+      left: 5em;
+    }
+    .mobile-cercel-1-heart-furmula-bottom-3{
+      width: 20px;
+      height: 20px;
+      border-radius: 50px;
+      background-color: #E4859B;
+      position: absolute;
+      top: 656em;
+      left: 7em;
+    }
     .margin-140{
       margin-top: -147px;
     }
@@ -2126,7 +2153,7 @@ and (max-device-width : 480px) {
     }
     .sec-4-details-p{
       width: 115%;
-      margin-left: 0px;
+      margin-left: -16px;
       font-size: 26px !important;
       margin-top: 20px;
     }
@@ -2192,7 +2219,7 @@ and (max-device-width : 480px) {
   .nano-sized,
   .general-ceramides{
     margin-top: -15px !important;
-    width: 120% !important;
+    width: 143% !important;
   }
 
   .sec-4-container{
