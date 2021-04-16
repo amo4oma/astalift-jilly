@@ -2042,7 +2042,14 @@ and (max-device-width : 480px) {
    padding:50px;
    border-bottom: #fff solid 1px;
  }
+ @supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */ 
+  .banner-img-container{
+    margin-top: 0px;
+    background-color: black;
+  }
 
+  }
   .sec-6 {
     padding-top: 37px;
     }
