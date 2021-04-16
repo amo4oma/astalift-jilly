@@ -2007,8 +2007,12 @@ and (max-device-width : 480px) {
   .banner-img{
     display: none;
   }
+  .banner-img-medium{
+    display: none !important;
+  }
   .banner-img-small{
-    display: block;
+    display: block !important;
+    object-position: 50% 20%;
   }
   .fab{
     font-size: 60px;
@@ -2690,7 +2694,7 @@ and (max-device-width : 480px) {
   width: 50px;
 }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1100px) {
   .section-container {
     max-width: 850px;
     margin: 0 auto;
