@@ -2058,6 +2058,38 @@ and (max-device-width : 480px) {
       border-radius: 50px;
       background-color: #E4859B;
       position: absolute;
+      top: 518em;
+      left: 5em;
+    }
+    .mobile-cercel-1-heart-furmula-2{
+      width: 35px;
+      height: 35px;
+      border-radius: 50px;
+      background-color: #E4859B;
+      position: absolute;
+      top: 521em;
+      left: 8em;
+    }
+    .mobile-cercel-1-heart-furmula-3{
+      width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #E4859B;
+    position: absolute;
+    top: 528em;
+    left: 52em;
+    }
+    .mobile-cercel-1-heart-furmula-4{
+      width: 35px;
+      height: 35px;
+      border-radius: 50px;
+      background-color: #E4859B;
+      position: absolute;
+      top: 533em;
+      left: 56em;
+    }
+    .margin-140{
+      margin-top: -147px;
     }
     .sec-7-right-col{
       background-size: 89%;
@@ -2138,7 +2170,7 @@ and (max-device-width : 480px) {
   .sec-3-col-1{
     position: relative;
     right: 66px;
-    bottom: 75px;
+  
   }
   .sec-3-col-2{
     position: relative;
