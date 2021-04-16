@@ -2058,6 +2058,7 @@ and (max-device-width : 480px) {
   /* CSS specific to iOS devices */ 
   .banner-img-container{
     margin-top: 0px;
+    height: 50%;
     background-color: black;
   }
 
