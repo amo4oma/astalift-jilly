@@ -2061,6 +2061,9 @@ and (max-device-width : 480px) {
     height: 50%;
     background-color: black;
   }
+  .banner-img-small{
+    height: 100%;
+  }
 
   }
   .sec-6 {
