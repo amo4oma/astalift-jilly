@@ -2007,6 +2007,10 @@ and (max-device-width : 480px) {
   .section-review-item-content-image-backdrop, .section-review-item-content-image-wrapper, .cercel-2{
    display: none;
   }
+  #section-2{
+    height: 118%;
+
+  }
   .banner-img{
     display: none;
   }
@@ -2064,6 +2068,9 @@ and (max-device-width : 480px) {
   }
   .banner-img-small{
     height: 70%;
+  }
+  .banner-img-container{
+    height: 50%;
   }
 
   }
@@ -2242,7 +2249,7 @@ and (max-device-width : 480px) {
   
   }
   #section-features{
-    margin-top: -14%;
+    margin-top: -38%;
   }
   .hydrate-col-2-for-mobile{
     position: relative;
