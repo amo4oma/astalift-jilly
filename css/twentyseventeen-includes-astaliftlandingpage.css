@@ -560,6 +560,15 @@ color: #3c3c3b;
     .cercel-2{
       right: 72px
     }
+   #sec-2-container {
+      height: 100%;
+    }
+
+}
+@media only screen and (max-width: 1600px) and (min-width: 1100px) {
+  #sec-2-container {
+    background-size: 190%;
+  }
 }
 /* ____________________new ends__________ */
 .header-astalift {
@@ -1976,6 +1985,7 @@ color: #c7103f !important;
 }
 .sec-3-img-1{
   width: 40%;
+ 
 }
 .sec-3-img-2,
 .sec-3-img-3{
@@ -2067,7 +2077,7 @@ and (max-device-width : 480px) {
     background-color: black;
   }
   .banner-img-small{
-    height: 70%;
+    height: 120%;
   }
   .banner-img-container{
     height: 50%;
