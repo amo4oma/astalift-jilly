@@ -538,7 +538,12 @@ color: #3c3c3b;
 #step{
   font-weight: 100;
 }
-
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */ 
+  .banner-img-container{
+    height: 0%;
+  }
+}
 @media only screen and (max-width: 1300px) and (min-width: 1100px)  {
   #sec-2-container{
     height: 88%;
