@@ -2023,6 +2023,9 @@ and (max-device-width : 480px) {
   .section-review-item-content-image-backdrop, .section-review-item-content-image-wrapper, .cercel-2{
    display: none;
   }
+  .desktop-btn{
+    display: none !important;
+  }
   #section-2{
     height: 118%;
 
