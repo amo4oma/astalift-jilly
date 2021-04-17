@@ -797,12 +797,13 @@ text-decoration: none;
   padding-left: 30px;
   padding-right: 30px;
 }
-
+#Layer_1{
+  display: none;
+}
 .section-home {
   position: relative;
   display: flex;
   flex-direction: column;
-  scroll-margin: 48px;
 }
 
 .banner-img-container {
@@ -2022,6 +2023,9 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
   .section-review-item-content-image-backdrop, .section-review-item-content-image-wrapper, .cercel-2{
    display: none;
+  }
+  #Layer_1{
+    display: block;
   }
   .desktop-btn{
     display: none !important;
