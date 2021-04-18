@@ -2012,6 +2012,12 @@ color: #c7103f !important;
 .mobile-cercel-3{
   display: none;
 }
+@supports (-webkit-touch-callout: none) {
+  .banner-text-wrapper {
+    height: 56% !important;
+  }
+ 
+}
 
 @media only screen
 and (min-device-width : 320px)
