@@ -1998,6 +1998,9 @@ footer h4 {
   .banner-text-wrapper {
     height: 56% !important;
   }
+  #section-features{
+    margin-top: -72.5%;
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
