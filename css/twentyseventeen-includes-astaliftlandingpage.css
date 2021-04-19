@@ -536,6 +536,9 @@ footer h4 {
   .section-2-sup {
     font-size: 18px;
   }
+  #wave-col{
+    margin-top: -1rem!important;
+  }
   .banner-img {
     height: 110% !important;
   }
@@ -1973,6 +1976,9 @@ footer h4 {
 #Layer_3 {
   display: none;
 }
+#Layer_3-mobile{
+  display: none;
+}
 #wave-red {
   position: absolute;
 }
@@ -2002,6 +2008,9 @@ footer h4 {
   }
   #ART-desktop {
     display: none;
+  }
+  #Layer_3 {
+    display: block;
   }
   .section-steps {
     padding-bottom: 50px;
