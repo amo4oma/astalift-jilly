@@ -2751,8 +2751,14 @@ footer h4 {
   .product-selection-item-details-image-small {
     width: 269px;
   }
+  .section-review-item-content-image-review-2{
+    width: 80%;
+    height: 60% !important;
+  }
 }
-
+#review-2-img{
+  width:74% !important;
+}
 @media (min-width: 1024px) {
   .review-mobile {
     display: none;
@@ -3274,7 +3280,12 @@ footer h4 {
     transform: none;
     transform-origin: unset;
   }
-
+  .section-review-item-content-image-review-2{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    max-width: unset;
+  }
   .section-review-item-content-image {
     width: 80%;
     height: 80%;
