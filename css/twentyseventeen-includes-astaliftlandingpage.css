@@ -542,6 +542,7 @@ footer h4 {
   .section-2-sup {
     font-size: 18px;
   }
+ 
   #wave-col{
     margin-top: -1rem!important;
   }
@@ -2022,6 +2023,9 @@ footer h4 {
   #mobile-margin{
     display: block;
   }
+  #review-2-img{
+    width: 50% !important;
+  }
   #ART-desktop {
     display: none;
   }
@@ -2757,7 +2761,7 @@ footer h4 {
   }
 }
 #review-2-img{
-  width:74% !important;
+  width:74% ;
 }
 @media (min-width: 1024px) {
   .review-mobile {
