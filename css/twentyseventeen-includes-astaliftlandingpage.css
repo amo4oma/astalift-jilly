@@ -547,7 +547,7 @@ footer h4 {
     margin-top: -1rem!important;
   }
   .banner-img {
-    height: 110% !important;
+    height: 120% !important;
   }
   .j-buttol {
     top: 150px;
@@ -2761,6 +2761,7 @@ footer h4 {
   }
 }
 #review-2-img{
+  height: 78%;
   width:74% ;
 }
 @media (min-width: 1024px) {
