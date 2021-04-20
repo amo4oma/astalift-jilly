@@ -1716,8 +1716,8 @@ footer h4 {
 }
 
 .section-review-item-content-image {
-  height: 240px;
-  width: calc(100vw - 60px);
+  height: 50%;
+  width: 100%;
   max-width: 230px;
   object-fit: cover;
   object-position: 0 15%;
@@ -2522,8 +2522,8 @@ footer h4 {
     width: 400px;
   }
   .section-review-item-content-image {
-    height: 376px;
-    width: calc(100vw - 60px);
+    height: 50%;
+    width: 50%;
     max-width: 400px;
   }
   .font-s-32 {
@@ -2539,9 +2539,8 @@ footer h4 {
     margin-top: 20px;
     margin-left: -10px;
   }
-  .section-review-item-content-image-container {
-  }
-
+ 
+  
   #nav {
     height: 100px;
   }
