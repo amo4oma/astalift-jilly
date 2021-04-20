@@ -452,9 +452,8 @@ footer h4 {
   background-color: #c7103f;
   opacity: 0.5;
   border-radius: 25px;
-  position: relative;
-  bottom: 100;
-  right: 50;
+  position: absolute;
+ 
 }
 .sec-5-cercel-2 {
   width: 25px;
@@ -2740,7 +2739,7 @@ footer h4 {
   .banner-img-medium {
     display: block;
     width: 100%;
-    height: 70%;
+    height: 100%;
     object-fit: cover;
     object-position: left;
     margin-top: 1px;
