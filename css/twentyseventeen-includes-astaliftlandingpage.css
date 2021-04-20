@@ -93,6 +93,9 @@ a:hover {
 .mobile-footer {
   display: none;
 }
+#mobile-margin{
+  display: none;
+}
 .human-t-headre {
   margin-top: -3;
 }
@@ -2012,6 +2015,9 @@ footer h4 {
   .section-review-item-content-image-wrapper,
   .cercel-2 {
     display: none;
+  }
+  #mobile-margin{
+    display: block;
   }
   #ART-desktop {
     display: none;
