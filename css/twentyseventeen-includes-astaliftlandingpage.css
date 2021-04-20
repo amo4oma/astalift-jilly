@@ -2738,7 +2738,9 @@ footer h4 {
     max-width: 850px;
     margin: 0 auto;
   }
-
+  .banner-img{
+    height: 100%;
+  }
   .banner-img-medium {
     display: block;
     width: 100%;
