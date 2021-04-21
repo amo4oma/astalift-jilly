@@ -204,7 +204,7 @@ a:hover {
 }
 .section-prod-details {
   background-color: #c7103f;
-
+  padding-bottom: 2px;
   margin-top: -3%;
 }
 #section-features h1 {
@@ -2841,6 +2841,7 @@ footer h4 {
   .banner-img {
     display: block;
     margin-top: 20px;
+    height: 100%;
   }
 
   .banner-img-medium {
