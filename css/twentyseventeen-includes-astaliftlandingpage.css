@@ -897,6 +897,7 @@ footer h4 {
 
 .banner-social-container {
   margin-top: 12px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: row;
 }
@@ -2279,6 +2280,7 @@ footer h4 {
     right: 66px;
   }
   .sec-3-col-2 {
+    margin-top: 15px;
     position: relative;
     left: 50;
   }
@@ -2512,6 +2514,7 @@ footer h4 {
     width: 50%;
     margin: 20px;
     padding: 20px;
+    margin-bottom: 100px;
   }
   #sec-2-container .row {
     display: flex;
