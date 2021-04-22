@@ -71,8 +71,14 @@ a:hover {
 }
 .view-more-btn {
   width: 25%;
-  background-color: #b1b1b1;
+  background-color: #ffffff;
   color: rgb(161, 0, 0);
+  font-weight: 500 !important;
+  border: 1px solid;
+}
+.view-more-btn:hover {
+  background-color: #c7103f;
+  color: #fff !important;
 }
 .duv-clear-text-highlight-wrapper {
   display: inline-block;
@@ -2618,7 +2624,7 @@ footer h4 {
     margin-top: 150px;
   }
   .banner-text-container {
-    margin-bottom: 7px;
+    padding-bottom: 7px;
   }
   .section-review-item-content-text {
     font-size: 32px !important;
