@@ -3221,6 +3221,12 @@ footer h4 {
     height: 100%;
     width: 100%;
   }
+  .cover2{
+    height: 100%;
+    width: 140%;
+    left: -40px;
+  }
+ 
 
   .section-related-products-container-mobile-carousel {
     display: none;
