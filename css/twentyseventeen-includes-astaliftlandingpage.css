@@ -31,7 +31,9 @@ a:hover {
   font-size: 59px;
   line-height: 1.2;
 }
-
+.price{
+  margin-bottom: 22px;
+}
 .sbha-button {
   cursor: pointer;
 }
