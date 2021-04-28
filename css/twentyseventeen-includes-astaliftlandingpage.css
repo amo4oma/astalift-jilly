@@ -2284,6 +2284,9 @@ footer h4 {
     position: relative;
     bottom: 4em;
   }
+  .furmola-img{
+    width: auto;
+  }
   #ART-1 {
     position: relative;
     top: 4px;
