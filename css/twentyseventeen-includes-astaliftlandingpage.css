@@ -256,7 +256,8 @@ a:hover {
   padding-top: 300px;
 }
 .sec-4-main-img {
-  width: 40%;
+  width: 65%;
+
    
 }
 .wave-container {
@@ -905,7 +906,7 @@ footer h4 {
 
 .banner-social-container {
   margin-top: 12px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: row;
 }
@@ -2024,7 +2025,7 @@ footer h4 {
   }
   .sec-4-main-img{
     width: 75%;
-    height: 30%;
+    
   }
 }
 
@@ -2348,7 +2349,7 @@ footer h4 {
     top: -216px !important;
   }
   .sec-4-main-img {
-    width: 50%;
+    width: 65%;
     margin-left: 200px;
     margin-bottom: 50px;
   }
