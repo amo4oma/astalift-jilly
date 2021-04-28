@@ -257,7 +257,7 @@ a:hover {
 }
 .sec-4-main-img {
   width: 43%;
-  max-height: 43%;
+  max-height: 73%;
 }
 .wave-container {
   position: relative;
@@ -2026,7 +2026,6 @@ footer h4 {
   }
   .sec-4-main-img{
     width: 75%;
-    
   }
 }
 
