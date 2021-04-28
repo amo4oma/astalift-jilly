@@ -256,9 +256,8 @@ a:hover {
   padding-top: 300px;
 }
 .sec-4-main-img {
-  width: 65%;
-
-   
+  width: 43%;
+  max-height: 43%;
 }
 .wave-container {
   position: relative;
